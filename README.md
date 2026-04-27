@@ -29,6 +29,7 @@ Sensors -> ESP32 -> Bluetooth -> Mobile App
                        ^
                        |
                User Commands (App)
+
 ---
 
 ## Hardware Components
