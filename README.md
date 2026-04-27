@@ -21,12 +21,14 @@ The system integrates multiple sensors and implements bidirectional communicatio
 
 ## System Architecture
 
-Sensors → ESP32 → Bluetooth → Mobile App  
-                  ↓  
-           Alert Logic → LED + Buzzer  
-                  ↑  
-            User Commands (App)
-
+```text
+Sensors -> ESP32 -> Bluetooth -> Mobile App
+                       |
+                       v
+                 Alert Logic -> LED + Buzzer
+                       ^
+                       |
+               User Commands (App)
 ---
 
 ## Hardware Components
