@@ -20,10 +20,10 @@ The system integrates multiple sensors and implements bidirectional communicatio
 ---
 
 ## System Architecture
-Sensors → ESP32 → Data Processing → Bluetooth → Android App
-↓
-Alert Logic → LED + Buzzer
 
+Sensors → ESP32 → Data Processing → Bluetooth → Android App  
+                                           ↓  
+                                      Alert Logic → LED + Buzzer
 
 ---
 
