@@ -19,19 +19,6 @@ The system integrates multiple sensors and implements bidirectional communicatio
 
 ---
 
-## System Architecture
-
-```text
-Sensors -> ESP32 -> Bluetooth -> Mobile App
-                       |
-                       v
-                 Alert Logic -> LED + Buzzer
-                       ^
-                       |
-               User Commands (App)
-
----
-
 ## Hardware Components
 - ESP32 Development Board
 - DHT11 Temperature & Humidity Sensor
@@ -99,3 +86,16 @@ Sensors -> ESP32 -> Bluetooth -> Mobile App
 - Data logging and historical analytics
 - PCB design for compact hardware implementation
 - Mobile app UI enhancements and notifications
+
+---
+
+## System Architecture
+
+```text
+Sensors -> ESP32 -> Bluetooth -> Mobile App
+                       |
+                       v
+                 Alert Logic -> LED + Buzzer
+                       ^
+                       |
+               User Commands (App)
